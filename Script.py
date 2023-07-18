@@ -193,7 +193,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """🏷️ <b><a href=https://t.me/FilmiXone_Channel>{file_name}"""
+    CAPTION = """🏷️ <b><a href=https://t.me/FilmiXone_Channel>{file_name}</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
