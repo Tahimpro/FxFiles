@@ -92,30 +92,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    SHORTNERADD = """ 
- <b>#SHORTNER</b> 
-  
- <b>Vᴀʟᴜᴇs :<code>{}</code> 
-  
- Gʀᴏᴜᴘ : <b>{}</b> 
-  
- ID : <code>{}</code> 
-  
- Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs : <code>{}</code> 
-  
- Aᴅᴅᴇᴅ Bʏ : {}</b> 
- """
-    TUTORIALADD = """ 
- <b>#TUTORIAL</b> 
-  
- <b>Vᴀʟᴜᴇs :<code>{}</code> 
-  
- Gʀᴏᴜᴘ : <b>{}</b> 
-  
- ID : <code>{}</code> 
-  
- Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs : <code>{}</code>
-
     STATUS_TXT = """
 <b>  Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
  Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
@@ -258,6 +234,31 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /link - <code>Tᴏ ᴄʀᴇᴀᴛᴇ ᴀ sɪɴɢʟᴇ ғɪʟᴇ sᴛᴏʀᴇ ʟɪɴᴋ.</code>
 • /pbatch - <code>Jᴜsᴛ ʟɪᴋᴇ /batch, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇs ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴs.</code>
 • /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
+
+    SHORTNERADD = """ 
+ <b>#SHORTNER</b> 
+  
+ <b>Vᴀʟᴜᴇs :<code>{}</code> 
+  
+ Gʀᴏᴜᴘ : <b>{}</b> 
+  
+ ID : <code>{}</code> 
+  
+ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs : <code>{}</code> 
+  
+ Aᴅᴅᴇᴅ Bʏ : {}</b> 
+ """
+    TUTORIALADD = """ 
+ <b>#TUTORIAL</b> 
+  
+ <b>Vᴀʟᴜᴇs :<code>{}</code> 
+  
+ Gʀᴏᴜᴘ : <b>{}</b> 
+  
+ ID : <code>{}</code> 
+  
+ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs : <code>{}</code>
+
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
