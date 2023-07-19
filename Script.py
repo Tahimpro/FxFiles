@@ -270,7 +270,6 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 
     LOGO = """
-
-Bot Started... 
-
+Bot Started...
 """
+
