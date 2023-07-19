@@ -118,7 +118,8 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
  Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs : <code>{}</code>
 
 
-    STATUS_TXT = """<b> 📌 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+    STATUS_TXT = """
+<b> 📌 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 🔅 Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 🎗️ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ⛔ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
