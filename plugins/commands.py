@@ -962,6 +962,7 @@ async def shortlink(bot, message):
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
+        total=await client.get_chat_members_count(grpid)
     else:
         return
     data = message.text
@@ -982,7 +983,8 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'shortlink_api', api)
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>Successfully added shortlink API for {title}.\n\nCurrent Shortlink Website: <code>{shortlink_url}</code>\nCurrent API: <code>{api}</code></b>")
-    await bot.send_message(LOG_CHANNEL, text=script.SHORTNERADD.format(message.text.replace("/set_shortner", "").replace("@PantherF_Robot", ""), title, grpid, total, message.from_user.mention), disable_web_page_preview=True)                
+  
+       await bot.send_message(LOG_CHANNEL, text=script.SHORTNERADD.format(message.text.replace("/set_shortner", "").replace("@PantherF_Robot", ""), title, grpid, total, message.from_user.mention), disable_web_page_preview=True)                
     
 @Client.on_message(filters.command("setshortneroff") & filters.user(ADMINS))
 async def offshortlink(bot, message):
@@ -1068,6 +1070,7 @@ async def settutorial(bot, message):
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
+        total=await client.get_chat_members_count(grpid)
     else:
         return
     userid = message.from_user.id
