@@ -269,7 +269,9 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 
 
-    LOGO = """
-Bot Started...
-"""
+    LOGO = """ 
+ Bot Started... 
+ """
+print(LOGO)
+
 
