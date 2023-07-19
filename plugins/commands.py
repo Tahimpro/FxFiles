@@ -984,8 +984,7 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>Successfully added shortlink API for {title}.\n\nCurrent Shortlink Website: <code>{shortlink_url}</code>\nCurrent API: <code>{api}</code></b>")
   
-       await bot.send_message(
-    LOG_CHANNEL,
+       await bot.send_message(LOG_CHANNEL,
     text=script.SHORTNERADD.format(
         message.text.replace("/set_shortner", "").replace("@PantherF_Robot", ""),
         title,
@@ -1099,8 +1098,7 @@ async def settutorial(bot, message):
         await reply.edit_text(f"<b>Successfully Added Tutorial\n\nHere is your tutorial link for your group {title} - <code>{tutorial}</code></b>")
     else:
         return await message.reply("<b>You entered Incorrect Format\n\nFormat: /set_tutorial your tutorial link</b>")
-        await bot.send_message(
-    LOG_CHANNEL,
+        await bot.send_message(LOG_CHANNEL,
     text=script.TUTORIALADD.format(
         message.text.replace("/set_tutorial", "").replace("@PantherF_Robot", ""),
         title,
