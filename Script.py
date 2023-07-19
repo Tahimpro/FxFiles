@@ -243,31 +243,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
-       SHORTNERADD = """ 
- <b>#SHORTNER</b> 
-  
- <b>Vᴀʟᴜᴇs :<code>{}</code> 
-  
- Gʀᴏᴜᴘ : <b>{}</b> 
-  
- ID : <code>{}</code> 
-  
- Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs : <code>{}</code> 
-  
- Aᴅᴅᴇᴅ Bʏ : {}</b> 
- """
-     TUTORIALADD = """ 
- <b>#TUTORIAL</b> 
-  
- <b>Vᴀʟᴜᴇs :<code>{}</code> 
-  
- Gʀᴏᴜᴘ : <b>{}</b> 
-  
- ID : <code>{}</code> 
-  
- Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs : <code>{}</code>
-
-
+       
       LOGO = """ 
   ████████╗████████╗  ██████╗░░█████╗░████████╗░██████╗ 
  ╚══██╔══╝╚══██╔══╝  ██╔══██╗██╔══██╗╚══██╔══╝██╔════╝ 
