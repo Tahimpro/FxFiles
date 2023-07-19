@@ -257,7 +257,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
   
  Aᴅᴅᴇᴅ Bʏ : {}</b> 
  """
-     TUTORIALADD = """ 
+    TUTORIALADD = """ 
 <u><b>#TUTORIAL</b></u>
   
  <b>Vᴀʟᴜᴇs :<code>{}</code> 
