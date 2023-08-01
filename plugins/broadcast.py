@@ -34,7 +34,7 @@ sts = await message.reply_text(
     done = 0
     blocked = 0
     deleted = 0
-    failed =0
+    failed = 0
 
     success = 0
     async for user in users:
