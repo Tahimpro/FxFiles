@@ -12,7 +12,21 @@ import asyncio
 async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
-    sts = await message.reply_text(
+    forwarded_text = None
+
+    if message.reply_to_message:
+        if message.reply_to_message.is_forwarded:
+            header = f"Forwarded from {message.reply_to_message.forward_from_chat.title} ({message.reply_to_message.forward_from_chat.username})\n"
+            forwarded_text = header + (message.reply_to_message.text or "Message contains media or other content.")
+        else:
+            header = f"Forwarded from {message.reply_to_message.from_user.full_name} ({message.reply_to_message.from_user.username})\n"
+            forwarded_text = header + (message.reply_to_message.text or "Message contains media or other content.")
+
+    if not forwarded_text:
+        await message.reply_text("Error: You need to reply to a message to broadcast it.")
+        
+        return
+sts = await message.reply_text(
         text='Broadcasting your messages...'
     )
     start_time = time.time()
