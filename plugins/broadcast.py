@@ -24,7 +24,7 @@ async def verupikkals(bot, message):
 
     success = 0
     async for user in users:
-        pti, sh = await forward_messages(int(user['id']), b_msg)
+        pti, sh = await app.forward_messages(int(user['id']), b_msg)
         if pti:
             success += 1
         elif pti == False:
@@ -55,7 +55,7 @@ async def broadcast_group(bot, message):
 
     success = 0
     async for group in groups:
-        pti, sh = await forward_messages_group(int(group['id']), b_msg)
+        pti, sh = await app.forward_messages_group(int(group['id']), b_msg)
         if pti:
             success += 1
         elif sh == "Error":
